@@ -1,0 +1,105 @@
+.ban__title{
+  font-family: "Abhaya Libre, sérif";
+  color: white;
+  text-shadow: 2px -2px 10px black;
+  font-size: 5.653rem;
+  padding-top: 0.5em;
+  margin-bottom: 2.827rem;
+}
+
+.ban div{
+  padding-left: 7%;
+}
+
+.ban__brand{
+  font-size: 1.414rem;
+  width: 50%;
+  margin-bottom: 2.827rem;
+  line-height: 1.4;
+}
+
+.ban__link{
+  margin-right: 20px;
+  background-color: $black;
+  color: white;
+}
+
+.help{
+  margin-left: 7%;
+
+}
+
+.help__title{
+  @include h2;
+}
+
+.help__title:after{
+@include after;
+}
+
+.help__link{
+  margin-right: 20px;
+}
+
+.help__links{
+  width: 505px;
+  margin: 0 10% 2.827rem auto;
+}
+
+.help__desc{
+  font-size: 1.414rem;
+  width: 505px;
+  line-height: 1.5;
+  margin: 0 10% 2.827rem auto;
+}
+.timetable{
+  display: flex;
+  background-color: $fondSection;
+  padding: 0 7%;
+  align-items: center;
+  margin: 9em 0;
+}
+
+.timetable__img{
+  display: flex;
+  flex-direction: column;
+  margin: -1em 0;
+}
+
+.timetable__img img{
+  width: 100%;
+  position: relative;
+}
+
+.timetable__img img:first-of-type{
+  top: -25px;
+}
+
+.timetable__img img:last-of-type {
+  bottom: -25px;
+}
+
+.timetable__title{
+  @include h2;
+  margin-bottom: 2.827rem;
+}
+
+.timetable__title:after{
+  @include after;
+  width: 30%;
+}
+
+.timetable__infos{
+  margin: 2em auto 2em 8%;
+}
+
+.timetable__desc{
+  font-size: 1.414rem;
+  width: 400px;
+  line-height: 1.5;
+  margin-bottom: 1.999rem;
+}
+
+.timetable__desc:last-of-type{
+  margin-bottom: 2.827rem;
+}

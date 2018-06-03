@@ -1,0 +1,68 @@
+.head__ban__partenaire{
+  background-image: url(../images/bannierePart.jpg);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+}
+
+.partenaires{
+  margin-left: 7%;
+
+}
+
+.partenaires__title{
+  @include h2;
+}
+
+.partenaires__title:after{
+  @include after;
+  width: 25%;
+}
+
+.partenaires__desc{
+  font-size: 1.414rem;
+  width: 505px;
+  line-height: 1.5;
+  margin: 0 10% 2.827rem auto;
+}
+
+.links{
+  background-color: $fondSection;
+  padding: 0 7%;
+  margin: 6em 0 2em 0;
+  padding-top: 50px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.links__part{
+  display: block;
+  text-transform: lowercase;
+  letter-spacing: initial;
+  font-size: 1.414rem;
+  line-height: 1.5;
+  background-color: white;
+  padding: 2em 0;
+  margin-bottom: 2em;
+}
+
+.links__part p:last-of-type{
+  color: $green;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.links__part:hover{
+  background-color: $green;
+  transition: 0.4s;
+  box-shadow: inset 2px 2px 50px 0.5px;
+}
+
+.links__part:hover>p:last-of-type{
+  border-bottom: 2px solid white;
+  color: white;
+  transition: 0.4s;
+}
+
+

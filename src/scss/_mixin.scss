@@ -1,0 +1,25 @@
+@mixin button{
+  display: inline-block;
+  border: 1px solid $black;
+  width: 190px;
+  padding:1rem 0;
+  text-align: center;
+}
+
+@mixin h2{
+  color: $green;
+  font-family: "Abhaya Libre", serif;
+  font-size: 2.827rem;
+  margin-bottom: 1.999rem;
+}
+
+@mixin after{
+  display: inline-block;
+  content:"";
+  width: 15%;
+  height: 2px;
+  background-color: $green;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
