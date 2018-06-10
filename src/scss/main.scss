@@ -7,6 +7,7 @@
 @import "contact";
 @import "equipe";
 @import "partenaires";
+@import "personne";
 
 body{
   max-width: 1240px;
@@ -26,7 +27,12 @@ body{
   transition: 0.40s;
 }
 
-.head__don{
+.emote{
+  font-size: 3em;
+  margin-left: 0.5em;
+}
+
+.head__don, .head__event{
   display: none;
   position: absolute;
   top: 110px;
@@ -39,11 +45,11 @@ body{
   text-align: center;
 }
 
-.head__don p{
+.head__don p, .head__event p{
   margin-bottom: 1rem;
 }
 
-.exitDon{
+.exitDon, .exitEvent{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +60,7 @@ body{
   height: 50px;
 }
 
-.exitDon:hover{
+.exitDon:hover, .exitEvent:hover{
   transform: rotate(180deg);
   transition: 0.4s;
 }

@@ -12,29 +12,77 @@
     <link rel="icon" type="image/png" href="./assets/images/logo.png" />
     <title>Accueil - La maison du 1002 pattes</title>
 </head>
+<div itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="address" content="Rue du neufchateau, 73 6600 Bastogne">
+    <meta itemprop="brand" content="Nous recevons des enfants, des adolescent et des familles en difficultés">
+    <meta itemprop="telephone" content="061/46.60.08">
+    <meta itemprop="email" content="secretariat@1002pattes.be">
+    <meta itemprop="sponsor" content="euromillions, joker+, lotto, winforlife">
+    <meta itemprop="Member" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Gwénaèlle Melchior">
+    <meta itemprop="colleague" content="Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="Neuropsychologue">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Charline Leriche">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="Neuropsychologue">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Amandine Piron">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="Neuropsychologue">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Laure Baillieux">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="psychologue">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Sandrine Meurisse">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="Logopède">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Emilie Leriche">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Catherine Godfroid, Laura Mespouille">
+    <meta itemprop="JobTitle" content="Logopède">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Catherine Godfroid">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Laura Mespouille">
+    <meta itemprop="JobTitle" content="psychomotricienne">
+</div>
+<div itemscope itemtype="http://schema.org/person">
+    <meta itemprop="familyName" content="Laura Mespouill">
+    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid">
+    <meta itemprop="JobTitle" content="psychologue">
+</div>
     <body>
         <header class="head">
             <div class="head__logoMainNav">
                 <img src="./assets/images/logo.png" alt="logo de la maison 1002 pattes" class="head__logo">
                 <input id="burger" type="checkbox" class="checkbox"/>
 
-                <label for="burger" class="burger" id="toto">
+                <label for="burger" class="burger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
                 <nav class="head__mainNav mainNav">
                     <h2 class="mainNav__title hidden">Navigation principale</h2>
-                    <a href="#" class="mainNav__link check">Accueil</a>
-                    <a href="./pages/equipe.html" class="mainNav__link">Équipe</a>
-                    <a href="./pages/aides.html" class="mainNav__link">Vous aidez&nbsp;?</a>
-                    <a href="./pages/partenaires.html" class="mainNav__link">Partenaires</a>
-                    <a href="./pages/contact.html" class="mainNav__link">Contact</a>
+                    <a href="#" class="mainNav__link check" title="aller sur la page d'accueil">Accueil</a>
+                    <a href="./pages/equipe.html" class="mainNav__link" title="aller sur la page équipe">Équipe</a>
+                    <a href="./pages/aides.html" class="mainNav__link" title="aller sur la page vous aider">Vous aidez&nbsp;?</a>
+                    <a href="./pages/partenaires.html" class="mainNav__link" title="aller sur la page des partenaires">Partenaires</a>
+                    <a href="pages/contact.php" class="mainNav__link" title="aller sur la page contact">Contact</a>
                     <a href="#" class="mainNav__link button don">Faire un don</a>
                 </nav>
                 <div class="head__don">
-                    <a href="#" class="exitDon"><span class="hidden">exit</span><i class="fas fa-times"></i></a>
-                    <p>Tous vos don seront utiliser pour améliérier votre confort au seins de notre asbl</p>
+                    <a href="#" class="exitDon" title="fermé la fenêtre de don"><span class="hidden">exit</span><i class="fas fa-times"></i></a>
+                    <p>Tous vos don seront utiliser pour améliorier votre confort au seins de notre asbl</p>
                     <p class="thank">Merci&nbsp;!</p>
                     <p class="number">185/645123/45456</p>
                 </div>
@@ -43,8 +91,12 @@
                 <div>
                     <h1 class="ban__title">Maison du 1002 pattes</h1>
                     <p class="ban__brand">Nous recevons des enfants, des adolescent et des familles en difficultés</p>
-                    <a href="./pages/equipe.html" class="ban__link button">Notre équipe</a>
-                    <a href="#" class="ban__link button">Évenement</a>
+                    <a href="./pages/equipe.html" class="ban__link button" title="aller sur la page équipe">Notre équipe</a>
+                    <a href="#" class="ban__link button event">Évenement</a>
+                </div>
+                <div class="head__event">
+                    <a href="#" class="exitEvent" title="fermé la fenêtre de don"><span class="hidden">exit</span><i class="fas fa-times cross"></i></a>
+                    <p>Il n'y a pas d'évènement prévu pour le moment <span class="emote">☹</span></p>
                 </div>
             </div>
         </header>
@@ -54,8 +106,8 @@
                 Notre but est de clarifier les difficultés de l'enfance, du jeune ou de la famille, tant d'un point de vue médical que paramédical.
             </p>
             <div class="help__links">
-                <a href="./pages/aides.html" class="help__link button">Vous aider&nbsp;?</a>
-                <a href="./pages/partenaires.html" class="help__link button">Partenaires</a>
+                <a href="./pages/aides.html" class="help__link button" title="aller sur la page vous ader">Vous aider&nbsp;?</a>
+                <a href="./pages/partenaires.html" class="help__link button" title="aller sur la page partenaires">Partenaires</a>
             </div>
         </section>
         <section class="timetable">
@@ -67,7 +119,7 @@
                 <h2 class="timetable__title">Notre horaire</h2>
                 <p class="timetable__desc">Ouvert du lundi au vendredi de 8h à 12h et de 13h à 19h</p>
                 <p class="timetable__desc">Secrétaria ouvert le lundi et le vendredi de 10h à 12h et de 13h à 16h</p>
-                <a href="./pages/contact.html" class="timetable__link button">Contact</a>
+                <a href="pages/contact.php" class="timetable__link button" title="aller sur la page contact">Contact</a>
             </div>
         </section>
         <footer class="footer">

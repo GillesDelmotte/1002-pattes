@@ -47,10 +47,7 @@
   margin-bottom: 2.827rem;
 }
 
-.choice__title:after{
-  @include after;
-  width: 10%;
-}
+
 
 .choice__infos{
   margin: 2em auto 2em 8%;
@@ -115,4 +112,18 @@
   position: relative;
   left: -2px;
 
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.reverse .choice__img a:hover{
+  transform: translateX(20px);
+  transition: 0.4s;
+}
+
+.reverse .choice__infos{
+  margin: 2em 8% 2em auto;
+  text-align: right;
 }

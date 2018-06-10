@@ -1,0 +1,36 @@
+
+
+
+.profil{
+  margin: 4em 0;
+}
+
+.profil__title{
+  @include h2();
+}
+
+.profil img{
+  float: left;
+  margin-right: 20px;
+}
+
+.profil__content{
+  margin: 0 2em;
+  font-size: 1.414rem;
+  line-height: 1.3;
+}
+
+.content__job{
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  color: $green;
+}
+
+.profil__content p{
+  margin-bottom: 1.5em;
+}
+
+.retour:last-of-type{
+  margin-bottom: 3em;
+}
+

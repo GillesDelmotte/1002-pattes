@@ -1,7 +1,28 @@
+<?php
+if(isset($_POST["submit"])){
+    $error = [];
+    if(isset($_POST["name"]) && strlen($_POST["name"])===0){
+        $error[] = "Vous n'avez pas envoyé votre nom";
+    }
+
+    if(isset($_POST["email"]) && strlen($_POST["email"])===0){
+        $error[] = "Vous n'avez pas envoyé votre email";
+    }
+    if(isset($_POST["sujet"]) && strlen($_POST["sujet"])===0){
+        $error[] = "Vous n'avez pas envoyé votre sujet";
+    }
+    if(isset($_POST["message"]) && strlen($_POST["message"])===0){
+        $error[] = "Vous n'avez pas envoyé de message";
+    }
+    if(sizeof($error)===0){
+        header('location:../index.html');
+    }
+}
+?>
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Asbl - la maison du 1002 pattes">
@@ -10,7 +31,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/bundle.css">
     <link rel="icon" type="image/png" href="../assets/images/logo.png" />
-    <title>Équipe - la maison du 1002 pattes</title>
+
+    <title>Contact - La maison du 1002 pattes</title>
 </head>
 <div itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="address" content="Rue du neufchateau, 73 6600 Bastogne">
@@ -73,86 +95,80 @@
             <nav class="head__mainNav mainNav">
                 <h2 class="mainNav__title hidden">Navigation principale</h2>
                 <a href="../index.html" class="mainNav__link" title="aller sur la page d'accueil">Accueil</a>
-                <a href="#" class="mainNav__link check" title="aller sur la page équipe">Équipe</a>
+                <a href="./equipe.html" class="mainNav__link" title="aller sur la paéquipe">Équipe</a>
                 <a href="./aides.html" class="mainNav__link" title="aller sur la page vous aider">Vous aidez&nbsp;?</a>
-                <a href="./partenaires.html" class="mainNav__link" title="aller sur la page des partenaires">Partenaires</a>
-                <a href="contact.php" class="mainNav__link" title="aller sur la page contact">Contact </a>
+                <a href="./partenaires.html" class="mainNav__link" title="aller sur la page partenaires">Partenaires</a>
+                <a href="#" class="mainNav__link check" title="aller sur la page contact">Contact</a>
                 <a href="#" class="mainNav__link button don">Faire un don</a>
             </nav>
-            </div>
-            <div class="head__ban__equipe">
-                <div>
-                    <h1 class="ban__title hidden">Maison du 1002 pattes - équipe</h1>
-                </div>
-            </div>
             <div class="head__don">
-                <a href="#" class="exitDon" title="fermé la fenêtre des dons"><span class="hidden">exit</span><i class="fas fa-times"></i></a>
+                <a href="#" class="exitDon" title="fermé la fenêtre des don"><span class="hidden">exit</span><i class="fas fa-times"></i></a>
                 <p>Tous vos don seront utiliser pour améliorier votre confort au seins de notre asbl</p>
                 <p class="thank">Merci&nbsp;!</p>
                 <p class="number">185/645123/45456</p>
             </div>
+            </div>
+            <div class="head__ban__contact">
+                <div>
+                    <h1 class="ban__title hidden">Maison du 1002 pattes - Contact</h1>
+                </div>
+            </div>
         </header>
-        <section class="equipe">
-            <h2 class="equipe__title">Notre équipe</h2>
-            <p class="equipe__desc">
-                Notre équipe est constitué de dix membres. Trois neuropsychologues, deux psychologues/psychothérapeutes, deux logopèdes, une psychomotricienne et deux secrétaires. Nous faisons tout notre possible pour vous aider mais si ce n'est pas possible, nous travaillons avec des partenaires qui pourrons peut être le faire.
-            </p>
-            <div class="equipe__links">
-                <a href="./partenaires.html" class="equipe__link button">partenaires</a>
+        <section class="contact">
+            <h2 class="contact__title" id="ancre">Contactez-nous</h2>
+
+            <form action="#ancre" method="post" class="contact__form">
+                <div class="errors" id="errors">
+                    <?php if(isset($error) && sizeof($error)>0): ?>
+                        <ul>
+                            <?php foreach($error as $e): ?>
+                                <li><p><i class="fas fa-exclamation">&nbsp;</i><?= $e ?></p></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <label for="email" class="email" >
+                        Email&nbsp;:
+                    </label>
+                    <input type="email" class="input__email" id="email" name="email" value="<?= @$_POST["email"] ?>">
+                </div>
+                <div>
+                    <label for="nom" class="nom">
+                        Nom&nbsp;:
+                    </label>
+                    <input type="text" class="input__nom" id="nom" name="name" value="<?= @$_POST["name"] ?>">
+                </div>
+                <div>
+                    <label for="sujet" class="sujet">
+                        sujet&nbsp;:
+                    </label>
+                    <input type="text" class="input__sujet" id="sujet" name="sujet" value="<?= @$_POST["sujet"] ?>">
+                </div>
+                <div>
+                    <label for="message" class="message">
+                        Messages&nbsp;:
+                    </label>
+                    <textarea name="message" id="message" cols="30" rows="10"><?= @$_POST["message"] ?></textarea>
+                </div>
+
+                <input type="submit" value="Envoyer" name="submit"><i class="fas fa-long-arrow-alt-right fleche"></i>
+            </form>
+        </section>
+        <section class="infos">
+            <div class="infos__img">
+                <img src="../assets/images/ext.jpg" alt="photo du batiment de la maison du 1002 pattes">
+                <img src="../assets/images/ext2.jpg" alt="photo du batiment de la maison du 1002 pattes">
+            </div>
+            <div class="infos__contact">
+                <h2 class="infos__title">informations</h2>
+                <p class="infos__desc toto">Rue du neufchateau, 73 6600 Bastogne</p>
+                <p class="infos__desc">061/46.60.08</p>
+                <p class="infos__desc" id="mail"><a href="mailto:secretariat@1002pattes.be">secretariat@1002pattes.be</a></p>
             </div>
         </section>
-        <section class="table" id="ancre">
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Gwénaèlle Melchior">
-                <div class="table__img">
-                    <img src="../assets/images/profil1.jpg" alt="photo de Gwénaèlle Melchior" class="image">
-                    <p class="table__img__name">Gwénaëlle Melchior</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Charline Leriche">
-                <div class="table__img">
-                    <img src="../assets/images/profil2.jpg" alt="photo de Charline Leriche" class="image">
-                    <p class="table__img__name">Charline Leriche</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil d'Amandine Piron">
-                <div class="table__img">
-                    <img src="../assets/images/profil3.jpg" alt="Photo d'Amandine Piron" class="image">
-                    <p class="table__img__name">Amandine Piron</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Laure Bailleux">
-                <div class="table__img">
-                    <img src="../assets/images/profil4.jpg" alt="Photo de Laure Bailleux" class="image">
-                    <p class="table__img__name">Laure Baillieux</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Sandrine Meurisse">
-                <div class="table__img">
-                    <img src="../assets/images/profil5.jpg" alt="Photo de Sandrine Meurisse" class="image">
-                    <p class="table__img__name">Sandrine Meurisse</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil d'Emilie Leriche">
-                <div class="table__img">
-                    <img src="../assets/images/profil2.jpg" alt="Photo d'Emilie Leriche" class="image">
-                    <p class="table__img__name">Emilie Leriche</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Catherine Godfroid">
-                <div class="table__img">
-                    <img src="../assets/images/profil3.jpg" alt="Photo de Catherine Godfroid" class="image">
-                    <p class="table__img__name">Catherine Godfroid</p>
-                </div>
-            </a>
-            <a href="./personne.html#profil" class="table__float" title="aller voir le profil de Laura Mespouille">
-                <div class="table__img">
-                    <img src="../assets/images/profil4.jpg" alt="Photo de Laura Mespouille" class="image">
-                    <p class="table__img__name">Laura Mespouille</p>
-                </div>
-            </a>
-        </section>
-        <section class="redirect redirectEquipe">
-            <h2 class="redirect__title hidden">Partenaires</h2>
+        <section class="redirect">
+            <h2 class="redirect__title hidden">Accueil</h2>
             <p class="redirect__desc">
                 Si vous voulez en savoir un peux plus sur notre asbl, n'hésiter pas a consulter notre page d'accueil
             </p>

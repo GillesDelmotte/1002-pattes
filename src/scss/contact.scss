@@ -152,3 +152,14 @@ input[type="submit"]:hover~.fleche{
   margin-bottom: 2.827rem;
 }
 
+.contact .errors{
+  color: rgb(255, 80, 80);
+  line-height: 1.5;
+  border: none;
+  font-size: 1.7em;
+}
+
+.contact .errors i{
+  margin-right: 25px;
+
+}

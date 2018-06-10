@@ -10,6 +10,7 @@
   }
 
   .choice__title:after{
+    @include after();
     display: block;
     margin: 1em auto;
     width: 50%;
@@ -17,32 +18,43 @@
     left: -10px;
   }
 
-  .choice__infos{
+  .choice__infos, .reverse .choice__infos{
     width: initial;
     margin: 2em 7%;
 
   }
 
-  .choice__desc{
+
+  .choice__desc, .reverse .choice__desc{
     width: initial;
     text-align: center;
   }
 
-  .choice__link{
+
+
+  .choice__link, .reverse .choice__link{
     display: block;
     margin: 0 auto;
+    margin-bottom: 5em;
+
   }
 
-  .choice__change{
+  .choice__img img{
+    margin-bottom: 2em;
+  }
+
+
+
+  .choice__change, .reverse .choice__change{
     text-align: center;
     margin-bottom: 5em;
   }
 
-  .choice__img a{
+  .choice__img a, .reverse .choice__img a{
     margin-bottom: -1em;
   }
 
-  .choice__img a:hover{
+  .choice__img a:hover, .reverse .choice__img a:hover{
     transform: translate(0 20px);
   }
 }
@@ -191,6 +203,16 @@
   .timetable .button{
     display: block;
     margin: 0 auto;
+  }
+
+  .profil__title{
+    text-align: center;
+  }
+  .profil img{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 2em;
   }
 
 }
@@ -363,5 +385,17 @@
     width: initial;
     text-align: center;
     margin: 2em auto;
+  }
+
+  .profil img{
+    width: 100%;
+  }
+
+  .profil__content{
+    font-size: 1.3em;
+  }
+
+  .contact .errors{
+    font-size: 1.2em;
   }
 }
