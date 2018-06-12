@@ -34,55 +34,55 @@ if(isset($_POST["submit"])){
 
     <title>Contact - La maison du 1002 pattes</title>
 </head>
-<div itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="address" content="Rue du neufchateau, 73 6600 Bastogne">
-    <meta itemprop="brand" content="Nous recevons des enfants, des adolescent et des familles en difficultés">
-    <meta itemprop="telephone" content="061/46.60.08">
-    <meta itemprop="email" content="secretariat@1002pattes.be">
-    <meta itemprop="sponsor" content="euromillions, joker+, lotto, winforlife">
-    <meta itemprop="Member" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Gwénaèlle Melchior">
-    <meta itemprop="colleague" content="Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="Neuropsychologue">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Charline Leriche">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="Neuropsychologue">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Amandine Piron">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="Neuropsychologue">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Laure Baillieux">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="psychologue">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Sandrine Meurisse">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="Logopède">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Emilie Leriche">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Catherine Godfroid, Laura Mespouille">
-    <meta itemprop="JobTitle" content="Logopède">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Catherine Godfroid">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Laura Mespouille">
-    <meta itemprop="JobTitle" content="psychomotricienne">
-</div>
-<div itemscope itemtype="http://schema.org/person">
-    <meta itemprop="familyName" content="Laura Mespouill">
-    <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid">
-    <meta itemprop="JobTitle" content="psychologue">
-</div>
     <body>
+    <div itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="address" content="Rue du neufchateau, 73 6600 Bastogne">
+        <meta itemprop="brand" content="Nous recevons des enfants, des adolescent et des familles en difficultés">
+        <meta itemprop="telephone" content="061/46.60.08">
+        <meta itemprop="email" content="secretariat@1002pattes.be">
+        <meta itemprop="sponsor" content="euromillions, joker+, lotto, winforlife">
+        <meta itemprop="Member" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Gwénaèlle Melchior">
+        <meta itemprop="colleague" content="Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="Neuropsychologue">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Charline Leriche">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="Neuropsychologue">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Amandine Piron">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="Neuropsychologue">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Laure Baillieux">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="psychologue">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Sandrine Meurisse">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Emilie Leriche, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="Logopède">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Emilie Leriche">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Catherine Godfroid, Laura Mespouille">
+        <meta itemprop="JobTitle" content="Logopède">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Catherine Godfroid">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Laura Mespouille">
+        <meta itemprop="JobTitle" content="psychomotricienne">
+    </div>
+    <div itemscope itemtype="http://schema.org/person">
+        <meta itemprop="familyName" content="Laura Mespouill">
+        <meta itemprop="colleague" content="Gwénaèlle Melchior, Charline Leriche, Amandine Piron, Laure Baillieux, Sandrine Meurisse, Emilie Leriche, Catherine Godfroid">
+        <meta itemprop="JobTitle" content="psychologue">
+    </div>
         <header class="head">
             <div class="head__logoMainNav">
             <img src="../assets/images/logo.png" alt="logo de la maison 1002 pattes" class="head__logo">
@@ -183,6 +183,7 @@ if(isset($_POST["submit"])){
                 <img src="../assets/images/winforlife.png" alt="logo de notre sponsor win for life">
             </div>
         </footer>
-    </body>
     <script src="../assets/js/bundle.js"></script>
+
+    </body>
 </html>
