@@ -18,21 +18,21 @@
     left: -10px;
   }
 
-  .choice__infos, .reverse .choice__infos{
+  .choice__infos, .choice:nth-child(odd) .choice__infos{
     width: initial;
     margin: 2em 7%;
 
   }
 
 
-  .choice__desc, .reverse .choice__desc{
+  .choice__desc, .choice:nth-child(odd) .choice__desc{
     width: initial;
     text-align: center;
   }
 
 
 
-  .choice__link, .reverse .choice__link{
+  .choice__link, .choice:nth-child(odd) .choice__link{
     display: block;
     margin: 0 auto;
     margin-bottom: 5em;
@@ -45,16 +45,16 @@
 
 
 
-  .choice__change, .reverse .choice__change{
+  .choice__change, .choice:nth-child(odd) .choice__change{
     text-align: center;
     margin-bottom: 5em;
   }
 
-  .choice__img a, .reverse .choice__img a{
+  .choice__img a, .choice:nth-child(odd) .choice__img a{
     margin-bottom: -1em;
   }
 
-  .choice__img a:hover, .reverse .choice__img a:hover{
+  .choice__img a:hover, .choice:nth-child(odd) .choice__img a:hover{
     transform: translate(0 20px);
   }
 }
@@ -238,13 +238,13 @@
     left: -2px;
   }
 
-  .contact__form{
+  .wpcf7{
     width: initial;
     margin: 2em 10%;
   }
 
   textarea{
-    width: initial;
+    width: 90%;
   }
 
   div input{
@@ -295,6 +295,11 @@
 
   .help__link{
     margin-bottom: 1em;
+  }
+
+  #toto{
+    display: block;
+    margin: 0 auto;
   }
 
 

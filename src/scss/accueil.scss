@@ -1,13 +1,12 @@
 .ban__title{
   font-family: "Abhaya Libre, sérif";
-  color: white;
-  text-shadow: 2px -2px 10px black;
+  color: rgb(50,50,50);
   font-size: 5.653rem;
   padding-top: 0.5em;
   margin-bottom: 2.827rem;
 }
 
-.ban div{
+.head__ban__accueil div{
   padding-left: 7%;
 }
 
@@ -102,4 +101,29 @@
 
 .timetable__desc:last-of-type{
   margin-bottom: 2.827rem;
+}
+
+.sponsor{
+  padding: 0 7%;
+  align-items: center;
+  margin: 9em 0;
+}
+
+.sponsor__title{
+  @include h2;
+  margin-bottom: 2.827rem;
+}
+
+.sponsor__logo{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sponsor__logo img{
+  margin-left: 1.5em;
+}
+
+.sponsor__title:after{
+  @include after;
+  width: 30%;
 }

@@ -114,16 +114,40 @@
 
 }
 
-.reverse{
+.choice:nth-child(even){
   flex-direction: row-reverse;
 }
 
-.reverse .choice__img a:hover{
+.choice:nth-child(even) .choice__img a:hover{
   transform: translateX(20px);
   transition: 0.4s;
 }
 
-.reverse .choice__infos{
+.choice:nth-child(even) .choice__infos{
   margin: 2em 8% 2em auto;
   text-align: right;
+}
+
+.table__img__name{
+  opacity: 0;
+  @include h2;
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  text-align: center;
+  font-size: 1.414rem;
+}
+
+.table__img:hover>.image{
+  opacity: 0.3;
+  transition: 0.4s;
+}
+
+.table__img:hover>.table__img__name{
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.redirectEquipe{
+  margin-top: 9em;
 }

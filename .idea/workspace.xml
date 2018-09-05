@@ -4,17 +4,20 @@
     <list default="true" id="89975521-5fdc-48db-bd69-7d9d5c6d7bf0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/euromillion.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/euromillion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages/aides.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/aides.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pages/equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/equipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/equipe.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages/partenaires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/partenaires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/pages/personne.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/personne.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/joker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/joker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/lotto.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/lotto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/winforlife.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/winforlife.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/accueil.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/accueil.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/aide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/equipe.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partenaires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partenaires.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/personne.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/personne.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,47 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="media.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2680">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="388">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aides.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/aides.html">
+      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4060">
-              <caret line="203" selection-start-line="203" selection-end-line="203" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3720">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="equipe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/equipe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partenaires.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/partenaires.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="399">
+              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -73,33 +49,28 @@
       <file leaf-file-name="personne.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/personne.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="2400">
+              <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.es6" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.es6">
+      <file leaf-file-name="aide.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/aide.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="2320">
+              <caret line="116" column="22" selection-start-line="116" selection-end-line="116" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <file leaf-file-name="aides.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/aides.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="2540">
+              <caret line="127" column="10" selection-start-line="127" selection-start-column="10" selection-end-line="127" selection-end-column="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="euromillion.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/euromillion.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -112,24 +83,24 @@
       <list>
         <option value="$PROJECT_DIR$/public/assets/css/reset.css" />
         <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/scss/equipe.scss" />
-        <option value="$PROJECT_DIR$/src/scss/accueil.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partenaires.scss" />
         <option value="$PROJECT_DIR$/src/scss/reset.scss" />
         <option value="$PROJECT_DIR$/src/scss/_mixin.scss" />
+        <option value="$PROJECT_DIR$/public/pages/contact.html" />
+        <option value="$PROJECT_DIR$/src/index.es6" />
+        <option value="$PROJECT_DIR$/public/pages/equipe.html" />
+        <option value="$PROJECT_DIR$/src/scss/equipe.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partenaires.scss" />
+        <option value="$PROJECT_DIR$/public/pages/contact.php" />
+        <option value="$PROJECT_DIR$/public/pages/partenaires.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/public/pages/aides.html" />
+        <option value="$PROJECT_DIR$/src/scss/accueil.scss" />
         <option value="$PROJECT_DIR$/src/scss/aide.scss" />
         <option value="$PROJECT_DIR$/src/scss/personne.scss" />
-        <option value="$PROJECT_DIR$/public/pages/contact.html" />
-        <option value="$PROJECT_DIR$/src/scss/contact.scss" />
-        <option value="$PROJECT_DIR$/src/scss/media.scss" />
-        <option value="$PROJECT_DIR$/src/index.es6" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/pages/aides.html" />
-        <option value="$PROJECT_DIR$/public/pages/contact.php" />
-        <option value="$PROJECT_DIR$/public/pages/equipe.html" />
-        <option value="$PROJECT_DIR$/public/pages/partenaires.html" />
         <option value="$PROJECT_DIR$/public/pages/personne.html" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/scss/media.scss" />
+        <option value="$PROJECT_DIR$/src/scss/contact.scss" />
       </list>
     </option>
   </component>
@@ -160,7 +131,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="730" />
@@ -171,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,19 +159,6 @@
               <item name="1002pattesDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="1002pattesDev" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="1002pattesDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1002pattesDev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="1002pattesDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1002pattesDev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -207,11 +166,16 @@
               <item name="1002pattesDev" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="1002pattesDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1002pattesDev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,14 +238,30 @@
       <workItem from="1528665783905" duration="82000" />
       <workItem from="1528730575481" duration="849000" />
       <workItem from="1528783754284" duration="48000" />
+      <workItem from="1528784277546" duration="87000" />
+      <workItem from="1531387545468" duration="3129000" />
+      <workItem from="1531475098600" duration="176000" />
+      <workItem from="1531475278713" duration="30000" />
+      <workItem from="1531815420847" duration="495000" />
+      <workItem from="1531816656254" duration="538000" />
+      <workItem from="1531825951750" duration="194000" />
+      <workItem from="1531826150705" duration="5000" />
+      <workItem from="1532072438115" duration="920000" />
+      <workItem from="1533394597665" duration="50000" />
+      <workItem from="1533395625983" duration="289000" />
+      <workItem from="1533396036520" duration="1063000" />
+      <workItem from="1535790787024" duration="81000" />
+      <workItem from="1535804804540" duration="24000" />
+      <workItem from="1536135214255" duration="992000" />
+      <workItem from="1536153783987" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96114000" />
+    <option name="totallyTimeSpent" value="104250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="730" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -303,7 +283,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,13 +293,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="680">
+          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html" />
     <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -383,13 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html" />
     <entry file="file://$PROJECT_DIR$/src/scss/aide.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -397,13 +372,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/partenaires.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
@@ -446,13 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html" />
     <entry file="file://$PROJECT_DIR$/src/scss/aide.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -460,13 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/accueil.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -545,27 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partenaires.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="58" selection-start-line="58" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/accueil.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/aide.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -573,34 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/personne.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7960">
-          <caret line="398" column="20" selection-start-line="398" selection-start-column="20" selection-end-line="398" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="154" selection-start-line="154" selection-end-line="154" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html" />
     <entry file="file://$PROJECT_DIR$/src/index.es6">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -608,57 +517,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/equipe.scss" />
+    <entry file="file://$PROJECT_DIR$/src/scss/partenaires.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2680">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/aides.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4060">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3720">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/equipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/partenaires.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/personne.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="940">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="569">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/euromillion.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/scss/accueil.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/partenaires.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="177" column="63" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/personne.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/aide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="116" column="22" selection-start-line="116" selection-end-line="116" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/aides.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2540">
+          <caret line="127" column="10" selection-start-line="127" selection-start-column="10" selection-end-line="127" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/personne.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

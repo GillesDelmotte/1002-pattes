@@ -56,13 +56,15 @@
 .links__part:hover{
   background-color: $green;
   transition: 0.4s;
-  box-shadow: inset 2px 2px 50px 0.5px;
+}
+
+.links__part:hover>p{
+  color: white;
+  transition: 0.4s;
 }
 
 .links__part:hover>p:last-of-type{
   border-bottom: 2px solid white;
-  color: white;
-  transition: 0.4s;
 }
 
 

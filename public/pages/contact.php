@@ -95,7 +95,6 @@ if(isset($_POST["submit"])){
             <nav class="head__mainNav mainNav">
                 <h2 class="mainNav__title hidden">Navigation principale</h2>
                 <a href="../index.html" class="mainNav__link" title="aller sur la page d'accueil">Accueil</a>
-                <a href="./equipe.html" class="mainNav__link" title="aller sur la paéquipe">Équipe</a>
                 <a href="./aides.html" class="mainNav__link" title="aller sur la page vous aider">Vous aidez&nbsp;?</a>
                 <a href="./partenaires.html" class="mainNav__link" title="aller sur la page partenaires">Partenaires</a>
                 <a href="#" class="mainNav__link check" title="aller sur la page contact">Contact</a>
@@ -175,7 +174,8 @@ if(isset($_POST["submit"])){
             <a href="../index.html" class="redirect__link button" title="aller sur la page d'accueil">Accueil</a>
         </section>
         <footer class="footer">
-            <div class="footer__copyright">© website designed by Gilles Delmotte</div>
+            <div class="footer__infos">Route de neuchateau 73 Bastogne</div>
+            <div class="footer__infos">+32 (0)61/46.60.08</div>
             <div class="footer__sponsor">
                 <img src="../assets/images/euromillion.png" alt="logo de notre sponsor euro millions">
                 <img src="../assets/images/joker.png" alt="logo de notre sponsor joker+">
